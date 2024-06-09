@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(resback.jpg);
+    background-size: contain;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    text-decoration:underline;
+    zoom: 1.5;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+
+#home, #about, #portfolio, #contact {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form label {
+    margin-top: 1rem;
+}
+#contact form input, #contact form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#contact form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background: #555;
+}
+
+.portfolio-item {
+    margin-top: 2rem;
+}
+
+.portfolio-item h2 {
+    margin-bottom: 0.5rem;
+}
+
+.intro{
+    text-align: center;
+    font-style: normal;
+}
+
+#ed{
+    border-style: inherit;
+    background-color: #333;
+    color: white;
+    border-style:inherit;
+    font-size: x-large;
+}
+
+#ex{
+    border-width: 10px;
+    background-color: #333;
+    color: white;
+    border-style:inherit;
+    font-size: x-large;
+}
+
+#sk{
+    border-width: 10px;
+    background-color: #333;
+    color: white;
+    border-style:inherit;
+    font-size: x-large;
+}
+
+#lc{
+    border-width: 10px;
+    background-color: #333;
+    color: white;
+    border-style:inherit;
+    font-size: x-large;
+}
+
+.photo img:hover{
+    zoom: 1.5;
+}
+
